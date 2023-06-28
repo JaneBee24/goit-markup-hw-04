@@ -148,7 +148,7 @@ h1, h2, h3{
 
 .main-banner{
     color: var(--second-dark-blue-color);
-    background-color: var(--second-dark-blue-color);
+    background-color: var(--second-dark-blue-color), url(/images/people-office\ 1.png);
     padding: 188px 0;
 
 
