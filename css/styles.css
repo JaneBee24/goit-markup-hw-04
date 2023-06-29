@@ -534,6 +534,7 @@ address{
     display: flex;
     align-items: center;
     justify-content: center; 
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-list-link:focus, .link-list-link:hover{
@@ -616,7 +617,12 @@ address{
 
 }
 
-.data-button:hover, .data-button:focus{
+.data-button:hover{
+    background-color: var(--second-blue-color);
+    border: none; 
+} 
+
+.data-button:focus{
     background-color: var(--second-blue-color);
     border: none; 
 }
