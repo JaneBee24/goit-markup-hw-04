@@ -16,6 +16,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3, h4, h5, p{
+    margin: 0;
+}
+
 .menu{
     display: flex; 
     gap: 40px;
@@ -124,9 +128,6 @@ img{
     gap: 24px; 
 }
 
-ul{
-    padding-left: 0;
-}
 
 .list_{
     background-color: var(--white-color);
