@@ -492,6 +492,11 @@ address{
     display: flex;
     align-items: center;
     justify-content: center; 
+    color: var(--gray-color);
+}
+
+.fifth-section-svg{
+    fill: currentColor; 
 }
 
 .fifth-section-link:hover, .fifth-section-link:focus{
