@@ -638,3 +638,6 @@ address{
     
 }
 
+.data-svg:hover, .data-svg:focus{
+    fill: var(--white-color);
+}
