@@ -629,15 +629,11 @@ address{
 .data-button:hover, .data-button:focus{
     background-color: var(--second-blue-color);
     border: none;  
-    fill: var(--white-color);
+    color: var(--white-color);
 } 
 
 .data-svg{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: currentColor;
     
-}
-
-.data-svg:hover, .data-svg:focus{
-    fill: var(--white-color);
 }
